@@ -44,7 +44,7 @@ router.post('/tweet', function (req, res, next) {
     console.log("Hello World");
 
     res.status(200).send("Hello World");
-
+// /tweet 로 끝나면 나오는 결과
 });
 
 router.post('/tweet/upload', function (req, res, next) {
