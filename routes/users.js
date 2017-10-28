@@ -26,7 +26,7 @@ router.get('/friends', function (req, res, next) {
                 id: 12340
             }
         ]
-    };
+    };//넣을 데이터
 
     res.status(200).send(data);
 
