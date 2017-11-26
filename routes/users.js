@@ -14,6 +14,37 @@ router.get('/', function(req, res, next) {
   res.send('respond with a resource');
 });
 
+router.post('/message', function (req, res, next) {
+
+    var to = req.body.to;
+    var from = req.body.from;
+    var type = req.body.type;
+    var message = req.body.message;
+
+    if(type == "printer"){
+        var SerialPort = require('serialport');
+        var port = new SerialPort('/dev/ttyACM0',{
+            baudrate: 9600,
+            parser: SerialPort.parsers.readline('\n')
+        });
+
+        port.on('open', function() {
+            port.write(from+','+to+','+message, function(err) {
+                if (err) {
+                    return console.log('Error on write: ', err.message);
+                }
+                console.log('데이터 전송완료\n');
+            });
+        });
+      res.status(200).send('success');
+    } else if(type == "twitter"){
+        T.post('statuses/update', {status:message},
+            function (err, data, response) {
+                res.status(200).send(data);
+            });
+    }
+});
+
 router.get('/friends', function (req, res, next) {
     var data = {
         data: [
@@ -43,7 +74,7 @@ router.get('/tweet/friends', function (req, res, next) {
 router.post('/tweet', function (req, res, next) {
     console.log("Hello World");
 
-    res.status(200).send("Hello World");
+    res.status(200).send("잘 나오고 있으니 안심해");
 // /tweet 로 끝나면 나오는 결과
 });
 
