@@ -4,7 +4,9 @@
     <bookmark url="file://$PROJECT_DIR$/routes/users.js" line="43" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="46e96197-7a65-462e-aa96-99027d32d2f8" name="Default" comment="" />
+    <list default="true" id="46e96197-7a65-462e-aa96-99027d32d2f8" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/javascripts/list.js" afterPath="$PROJECT_DIR$/public/javascripts/list.js" />
+    </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -81,7 +83,7 @@
         <entry file="file://$PROJECT_DIR$/public/javascripts/list.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="217">
-              <caret line="7" column="57" lean-forward="true" selection-start-line="7" selection-start-column="57" selection-end-line="7" selection-end-column="57" />
+              <caret line="7" column="36" lean-forward="false" selection-start-line="7" selection-start-column="36" selection-end-line="7" selection-end-column="36" />
               <folding />
             </state>
           </provider>
@@ -213,13 +215,14 @@
               <item name="smartprinter-io-" type="b2602c69:ProjectViewProjectNode" />
               <item name="smartprinter-io-" type="462c0819:PsiDirectoryNode" />
               <item name="public" type="462c0819:PsiDirectoryNode" />
-              <item name="javascripts" type="462c0819:PsiDirectoryNode" />
+              <item name="stylesheets" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="smartprinter-io-" type="b2602c69:ProjectViewProjectNode" />
               <item name="smartprinter-io-" type="462c0819:PsiDirectoryNode" />
               <item name="public" type="462c0819:PsiDirectoryNode" />
               <item name="stylesheets" type="462c0819:PsiDirectoryNode" />
+              <item name="bootstrap.css" type="620a8d5e:NestingTreeNode" />
             </path>
             <path>
               <item name="smartprinter-io-" type="b2602c69:ProjectViewProjectNode" />
@@ -294,7 +297,7 @@
       <workItem from="1509156946698" duration="1878000" />
       <workItem from="1511573125571" duration="7451000" />
       <workItem from="1511662029507" duration="8050000" />
-      <workItem from="1513386435836" duration="6274000" />
+      <workItem from="1513386435836" duration="6726000" />
     </task>
     <task id="LOCAL-00001" summary="20171126">
       <created>1511672702471</created>
@@ -307,12 +310,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30468000" />
+    <option name="totallyTimeSpent" value="30920000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13385417" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13385417" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24342105" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -664,7 +668,7 @@
     <entry file="file://$PROJECT_DIR$/public/javascripts/list.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="217">
-          <caret line="7" column="57" lean-forward="true" selection-start-line="7" selection-start-column="57" selection-end-line="7" selection-end-column="57" />
+          <caret line="7" column="36" lean-forward="false" selection-start-line="7" selection-start-column="36" selection-end-line="7" selection-end-column="36" />
           <folding />
         </state>
       </provider>
